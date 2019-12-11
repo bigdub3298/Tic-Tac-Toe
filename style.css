@@ -40,4 +40,11 @@ body {
   width: 100%;
   height: 150px;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board .board-space .icon {
+  /* text-align: center; */
 }
