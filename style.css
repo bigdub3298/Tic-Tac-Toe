@@ -46,4 +46,26 @@ body {
 }
 
 #board .board-space .fa-times {
+  color: #aaa;
+}
+
+#board .board-space .fa-circle {
+  color: #444;
+}
+
+#alert {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#restart {
+  transition: background-color 0.3s ease-in;
+  margin-bottom: 2rem;
+}
+
+#restart:hover {
+  background-color: #444;
+}
+#restart:focus {
+  outline: none;
 }
